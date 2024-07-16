@@ -6,7 +6,7 @@
     <h3>Edit your listing</h3>
     <form action="/listings/<%= listing._id %>?_method=PUT" method="post" novalidate class="needs-validation" enctype="multipart/form-data">
     <div class="mb-3">
-        <label for="title" class="form-label">Title</label>
+        <label for="title" class="form-label">Title </label>
         <input type="text" name="listing[title]" value="<%=listing.title%>" class="form-control" required>
         <div class="valid-feedback">Looks good!</div>
     </div>
